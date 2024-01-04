@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li{
+    display: inline-block;
+    margin: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

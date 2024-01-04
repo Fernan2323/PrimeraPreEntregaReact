@@ -1,0 +1,7 @@
+.itemList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-size: 100px;
+}
