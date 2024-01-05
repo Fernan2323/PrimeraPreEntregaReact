@@ -9,4 +9,13 @@ li{
     margin: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
+    padding: 8px;
+}
+li:hover{
+    background-color: black;
+    color:white;
+    border-radius: 8px;
+    
+
+
 }
