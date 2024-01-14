@@ -1,9 +1,17 @@
-.itemList {
+/* .itemListcontainer {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 700px;
-  font-size: 100px;
+  animation: animation-1 2s;
+  
+  
+}
+ */
+@keyframes animation-1{
+  100%{
+    width: 1000px;
+  }
 }
 
 .bounce-in-top{-webkit-animation:bounce-in-top 1.1s both;animation:bounce-in-top 1.1s both}
