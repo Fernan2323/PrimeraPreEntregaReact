@@ -16,3 +16,18 @@ export const getProductos = () => {
         }, 500)
     })
 }
+
+// Funcion q retorna un solo item
+
+export const getUnProducto = (id) => {
+
+    return new Promise( resolve => {
+
+        setTimeout(() =>{
+
+            const producto = productos.find(prod => prod.id === id);
+
+            resolve(producto);
+        }, 1000)
+    })
+}
