@@ -1,8 +1,12 @@
 const productos = [
-    { id: 1, nombre: 'Memoria ram', precio: 500, img:'./img/ram.jpg'},
-    { id: 2, nombre: 'Procesador', precio: 100, img:'./img/procesador.jpg'},
-    { id: 3, nombre: 'Disco SSD', precio: 200, img:'./img/discossd.jpg'},
-    { id: 4, nombre: 'Tarjeta grafica', precio: 1000, img:'./img/grafica.jpg'},
+    { id: '1', nombre: 'RTX 3090', precio: 1000, img:'../img/grafica.jpg', idCat: '2'},
+    { id: '2', nombre: 'GTX 1650', precio: 500, img:'../img/gtx-1650.jpg', idCat: '2'},
+    { id: '3', nombre: 'RX 560', precio: 450, img:'../img/rx-560.jpg', idCat: '2'},
+    { id: '4', nombre: 'Intel i5', precio: 800, img:'../img/intel-i5.jpg', idCat: '3'},
+    { id: '5', nombre: 'Ryzen 5', precio: 600, img:'../img/ryzen-5.jpg', idCat: '3'},
+    { id: '6', nombre: 'Ryzen 7', precio: 1200, img:'../img/ryzen-7.jpg', idCat: '3'},
+    { id: '7', nombre: 'RAM fury', precio: 100, img:'../img/ram-fury.jpg', idCat: '4'},
+    { id: '8', nombre: 'RAM vengeance', precio: 80, img:'../img/ram-vengeance.jpg', idCat: '4'},
 ]
 
 export const getProductos = () => {
@@ -13,7 +17,7 @@ export const getProductos = () => {
             
            r(productos)   
 
-        }, 500)
+        }, 100)
     })
 }
 
@@ -28,6 +32,20 @@ export const getUnProducto = (id) => {
             const producto = productos.find(prod => prod.id === id);
 
             resolve(producto);
-        }, 1000)
+        }, 100)
+    })
+}
+
+// Creamos una funcion q retorne toda la categoria.
+
+export const GetProductosPorcategoria = (idCategorias) => {
+
+    return new Promise (resolve => {
+
+        setTimeout(() => {
+
+            const productosCategoria = productos.filter(prod => prod.idCat === idCategorias)
+            resolve(productosCategoria);
+        }, 100)
     })
 }
