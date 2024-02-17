@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
 import ItemList from '../ItemList/ItemList';
 import './itemlistcontainer.css';
-import {getProductos, GetProductosPorcategoria} from '../../asyncmock';
+// import {getProductos, GetProductosPorcategoria} from '../../asyncmock';
 import { useParams } from 'react-router-dom';
+import { db } from '../../services/config';
+import { collection, getDocs, where, query } from 'firebase/firestore';
 
 const ItemLisContainer = () => {
   
@@ -10,14 +12,29 @@ const ItemLisContainer = () => {
 
   const {idCategorias} = useParams([]);
 
-  useEffect(() => {
+  useEffect (() => {
+ 
+    const misProductos = idCategorias ? query(collection(db,'inventario'), where('idCat', '==', idCategorias)) : collection(db, 'inventario');
+
+    getDocs(misProductos)
+    .then(res => {
+      const nuevosProductos = res.docs.map(doc => {
+        const data = doc.data();
+        return {id: doc.id, ...data};
+      })
+      setProductos(nuevosProductos)
+    })
+    .catch(error => console.log(error))
+    },[idCategorias])
+
+  /* useEffect(() => {
 
     const funcionProductos = idCategorias ? GetProductosPorcategoria : getProductos;
 
     funcionProductos(idCategorias)
     .then(res => setProductos(res))
     .catch(error => console.log(error))
-  },[idCategorias])
+  },[idCategorias]) */
 
   return (
     <div className="itemListcontainer bounce-in-top">
