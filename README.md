@@ -1,8 +1,22 @@
-# React + Vite
+# E-commerce "ProX Gaming Shop"
+Proyecto web-app e-commerce desarrollado con React para realizar compras en linea.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologias
+- React
+- Firebase
+- Css
+- Vite
+- Js
+- Github 
 
-Currently, two official plugins are available:
+## Instalacion
+1- Descargar el repositorio.
+2- Abrir la consola de nuestra PC.
+3- Ejecutar el comando "npm install" para instalar los modulos necesarios para su funcionamiento.
+4- Ejecutar el comando "npm run dev" para visualizar el proyecto en nuestro navegador.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidad
+esta web-app permite al usuario navegar por un listado de productos, filtrar productos por categorias, añadir dichos productos a un carrito de compras para efectuar la compra o borrar los productos del carrito entre otras funcionalidades.
+
+## Licencia
+Este poryecto esta licenciado bajo MIT.

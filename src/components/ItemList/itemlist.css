@@ -1,6 +1,4 @@
-.itemListJsx{
-
-    display: flex;
-    flex-wrap: wrap;
-
+.itemListJsx {
+  display: flex;
+  flex-wrap: wrap;
 }

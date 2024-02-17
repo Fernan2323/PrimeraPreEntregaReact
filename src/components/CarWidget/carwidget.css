@@ -1,15 +1,7 @@
-.car{
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.2rem;
-
+.img-cart {
+  width: 40px;
 }
-.img-cart{
-    width: 40px;
-    background-color: white;
-    color: white;
+.link {
+  text-decoration: none;
+  color: black;
 }
-
-
-
-

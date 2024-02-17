@@ -1,105 +1,82 @@
-.container-check{
-    background-color: rgba(0, 0, 0, 0.952);
-    border-radius: 10px;
-    
-    padding: 2rem;
-    margin: 1rem;
-    display: flex;
-    align-items: center;
-    color: white;
-    width: 700px;
-    height: 100%;
-    text-align: center;
-    justify-content: space-between;
-    border: 2px solid red;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-section{
-    display: flex;
-    justify-content: center;
-}
+.container-check {
+  background-color: rgba(0, 0, 0, 0.952);
+  border-radius: 10px;
 
-
-.div-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    
+  padding: 2rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 600px;
+  height: 100%;
+  text-align: center;
+  justify-content: space-between;
+  border: 2px solid red;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
-form{
-    background-color: aqua;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.952);
-    color: white;
-    border: 2px solid red;
-    padding-bottom: 1rem;
-    width: 700px;
-    padding: 2rem;
-   
-    
-    
-}
-form div{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding: 2rem;
-    text-align: center;
-
-    
-    
+section {
+  display: flex;
+  justify-content: center;
 }
 
-button{
-    text-align: center;
-    align-items: center;
-    border-radius: 8px;
-    padding: 10px;
-    background-color: white;
-    border: 1px solid red;
+h2 {
+  text-align: center;
 }
-
-
-/* h2 {
-    text-align: center;
+h3 {
+  font-size: 2rem;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.952);
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 8rem;
+  margin: 0 auto;
+  text-align: center;
+  gap: 1rem;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid red;
 }
 
 label {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-input[type="text"],
-input[type="email"] {
-    margin-top: 0.5rem;
-    padding: 0.5rem;
-    width: 100%;
+input {
+  margin-top: 0.8rem;
+  padding: 0.8rem;
+  width: 100%;
+  background: transparent;
+  border-radius: 8px;
+  color: white;
 }
 
-.botones {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  gap: 1rem;
 }
 
-.miBtn.checkout {
-    width: 50%;
+button {
+  text-align: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  cursor: pointer;
+  font-size: 1rem;
 }
 
-.form-group {
-    margin-bottom: 25px;
-} */
+.div-form {
+  margin-bottom: 25px;
+}

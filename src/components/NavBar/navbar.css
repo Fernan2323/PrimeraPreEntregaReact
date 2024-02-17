@@ -1,31 +1,30 @@
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-h1{
-    color: black;
+h1 {
+  color: black;
 }
-.link-logo{
-    text-decoration: none;
-}
-
-li{
-    display: inline-block;
-    margin: 1rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-    padding: 8px;
-    text-decoration: none;
-}
-.navlink-li{
-    text-decoration: none;
-    color: black;
-    padding: 8px;
-}
-.navlink-li:hover{
-    color: white;
-    background-color: black;
-    border-radius: 8px;
+.link-logo {
+  text-decoration: none;
 }
 
+li {
+  display: inline-block;
+  margin: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 8px;
+  text-decoration: none;
+}
+.navlink-li {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+}
+.navlink-li:hover {
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+}
