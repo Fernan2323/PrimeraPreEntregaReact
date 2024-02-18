@@ -4,7 +4,11 @@ header {
   justify-content: space-evenly;
 }
 h1 {
-  color: black;
+  color: red;
+  background-color: black;
+  border-radius: 10px;
+  padding: 1rem;
+  border: 2px solid red;
 }
 .link-logo {
   text-decoration: none;
@@ -22,9 +26,15 @@ li {
   text-decoration: none;
   color: black;
   padding: 8px;
+  
 }
 .navlink-li:hover {
-  color: white;
-  background-color: black;
+  color: red;
+  background-color: rgba(0, 0, 0, 0.952);
   border-radius: 8px;
+  border: 1px solid red;
+}
+.logo{
+  width: 40px;
+  margin-left: 10px;
 }

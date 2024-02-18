@@ -1,5 +1,6 @@
 .img-cart {
   width: 40px;
+  border: 2px solid red;
 }
 .link {
   text-decoration: none;

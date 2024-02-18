@@ -7,7 +7,9 @@ const NavBar = () => {
   return (
     <header>
       <Link className="link-logo" to="/">
-        <h1>ProX Gaming Shop</h1>
+        <h1>ProX Gaming Shop
+          <img className="logo" src="../public/img/logo.png" alt="logo" />
+        </h1>
       </Link>
 
       <nav>

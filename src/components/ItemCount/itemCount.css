@@ -1,5 +1,7 @@
 .itemCountDiv {
   display: flex;
+  padding: 1rem;
+  margin-bottom: 0;
 }
 .itemCountDiv button {
   width: 20px;

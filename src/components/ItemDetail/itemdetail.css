@@ -17,3 +17,12 @@
 section div img {
   width: 300px;
 }
+.link-item {
+  text-decoration: none;
+  color: black;
+  background-color: red;
+  border-radius: 10px;
+  padding: 8px;
+  color: white;
+  margin: 2rem;
+}
